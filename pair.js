@@ -81,24 +81,24 @@ var randomItem = selectRandomItem(items);
 
 > Do not share your session id with anyone.
 
- *Thanks for CASEYRHODES-XMD* 
+ *Thanks for ELIAKIM-XMD* 
 
 > Join WhatsApp Channel :- ⤵️
  
- https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+ https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/caseyweb/CASEYRHODES-XMD
+https://github.com/ttpair-fbv4/ELIAKIM-XMD
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`; 
+> *© POWERED BY ELIAKIM TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍʀ.ᴄᴀsᴇʏʀʜᴏᴅᴇs",
+title: "ELIAKIM TECH",
 thumbnailUrl: "",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying CASEYRHODES-XMD*\n\n ◦ *Github:* https://github.com/caseyweb/CASEYRHODES-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploying ELIAKIM-XMD*\n\n ◦ *Github:* https://github.com/ttpair-fbv4/ELIAKIM-XMD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "CASEYRHODES-XMD",
+title: "ELIAKIM-XMD",
 thumbnailUrl: "https://files.catbox.moe/mg79db.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
