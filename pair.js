@@ -107,7 +107,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying ELIAKIM-XMD*\n\n ◦ *Github:* https://github.com/ttpair-fbv4/ELIAKIM-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploying ELIAKIM-XMD*\n\n ◦ *Github:* https://eliakim-91qt.onrender.com`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
