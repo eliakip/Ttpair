@@ -89,7 +89,7 @@ var randomItem = selectRandomItem(items);
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/ttpair-fbv4/ELIAKIM-XMD
+https://github.com/eliakip/Eliakim-Xmd/tree/main
 
 > *© POWERED BY ELIAKIM TECH*`; 
                         await sock.sendMessage(sock.user.id, {
