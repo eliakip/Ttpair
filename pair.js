@@ -113,7 +113,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ELIAKIM-XMD",
-thumbnailUrl: "https://files.catbox.moe/mg79db.jpg",
+thumbnailUrl: "https://files.catbox.moe/4i1zqg.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 2,
 renderLargerThumbnail: true,
