@@ -81,11 +81,11 @@ var randomItem = selectRandomItem(items);
 
 > Do not share your session id with anyone.
 
- *Thanks for ELIAKIM-XMD* 
+ *Thanks for 𝙀𝙇𝙄𝘼𝙆𝙄𝙈-𝙓𝙈𝘿* 
 
 > Join WhatsApp Channel :- ⤵️
  
- https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
+https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
@@ -113,7 +113,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ELIAKIM-XMD",
-thumbnailUrl: "https://files.catbox.moe/4i1zqg.jpg",
+thumbnailUrl: "https://files.catbox.moe/zv5r84.jpeg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 2,
 renderLargerThumbnail: true,
