@@ -75,13 +75,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "Eliakim-Xmd~" + string_session;
+                        let md = "Fayez-md~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋* 
 
 > Do not share your session id with anyone.
 
- *Thanks for 𝙀𝙇𝙄𝘼𝙆𝙄𝙈-𝙓𝙈𝘿* 
+ *Thanks for 𝙁𝘼𝙔𝙀𝙕-𝙈𝘿* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,14 +89,14 @@ https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/eliakip/Eliakim-Xmd/tree/main
+https://github.com/eliakip/FAYEZ-MD/tree/main
 
-> *© POWERED BY ELIAKIM TECH*`; 
+> *© POWERED BY FAYEZ TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ELIAKIM TECH",
+title: "FAYEZ TECH",
 thumbnailUrl: "",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 1,
@@ -107,12 +107,12 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying ELIAKIM-XMD*\n\n ◦ *Github:* https://eliakim-91qt.onrender.com`;
+                            let desc = `*Don't Share with anyone this code use for deploying FAYEZ-MD*\n\n ◦ *Github:* https://github.com/eliakip/FAYEZ-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ELIAKIM-XMD",
+title: "FAYEZ-MD",
 thumbnailUrl: "https://files.catbox.moe/zv5r84.jpeg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 2,
