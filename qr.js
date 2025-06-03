@@ -70,13 +70,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ELIAKIM-XMD~" + string_session;
+                        let md = "FAYEZ-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there ELIAKIM MD User! 👋🏻* 
+                        let desc = `*Hello there FAYEZ MD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using ELIAKIM-XMD 🚩* 
+ *Thanks for using FAYEZ-MD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -84,9 +84,9 @@ https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/eliakip/Eliakim-Xmd/tree/main
+https://github.com/eliakip/FAYEZ-MD/tree/main
 
-> *© POWERD BY ELIAKIM TECH🖤*`;
+> *© POWERD BY FAYEZ TECH🖤*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
@@ -106,7 +106,7 @@ renderLargerThumbnail: true
 
 > Do not share your session id with anyone.
 
- *Thanks for using ELIAKIM-XMD 🚩* 
+ *Thanks for using FAYEZ-MD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -114,9 +114,9 @@ https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/eliakip/Eliakim-Xmd/tree/main
+https://github.com/eliakip/FAYEZ-MD/tree/main
 
-> *© Powered BY EliakimTech🖤*`;
+> *© Powered BY FayezTech🖤*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
