@@ -75,13 +75,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "FAYEZ-MD~" + string_session;
+                        let md = "FIX-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋* 
 
 > Do not share your session id with anyone.
 
- *Thanks for 𝙁𝘼𝙔𝙀𝙕-𝙈𝘿* 
+ *Thanks for 𝙁𝙄𝙓-𝙈𝘿* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,14 +89,14 @@ https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/eliakip/FAYEZ-MD/tree/main
+https://github.com/eliakip/FIX-MD/tree/main
 
-> *© POWERED BY FAYEZ TECH*`; 
+> *© POWERED BY FIX TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "FAYEZ TECH",
+title: "FIX TECH",
 thumbnailUrl: "",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 1,
@@ -107,13 +107,13 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying FAYEZ-MD*\n\n ◦ *Github:* https://github.com/eliakip/FAYEZ-MD`;
+                            let desc = `*Don't Share with anyone this code use for deploying FIX-MD*\n\n ◦ *Github:* https://github.com/eliakip/FIX-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "FAYEZ-MD",
-thumbnailUrl: "https://files.catbox.moe/zv5r84.jpeg",
+title: "FIX-MD",
+thumbnailUrl: "https://files.catbox.moe/8kxpn0.jpeg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t",
 mediaType: 2,
 renderLargerThumbnail: true,
