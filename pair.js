@@ -81,7 +81,7 @@ var randomItem = selectRandomItem(items);
 
 > Do not share your session id with anyone.
 
- *Thanks for TEDDY-XMD* 
+ *Thanks for ELIAKIM-XMD* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,14 +89,14 @@ var randomItem = selectRandomItem(items);
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/Teddytech1/TEDDY-XMD
+https://github.com/eliakip/ELIAKIM-XMD
 
-> *© Teddy*`; 
+> *© Eliakim*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Teddy",
+title: "Eliakim",
 thumbnailUrl: "",
 sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
 mediaType: 1,
@@ -107,12 +107,12 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying CASEYRHODES-XMD*\n\n ◦ *Github:* https://github.com/caseyweb/CASEYRHODES-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploying ELIAKIM-XMD*\n\n ◦ *Github:* https://github.com/caseyweb/CASEYRHODES-XMD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TEDDY-XMD",
+title: "ELIAKIM-XMD",
 thumbnailUrl: "https://files.catbox.moe/yx9w43.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
 mediaType: 2,
